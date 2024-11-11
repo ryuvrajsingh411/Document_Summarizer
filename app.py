@@ -29,7 +29,11 @@ def extract_text_from_pdf(file_path):
             text.append(page[i].extract_text())
     return text
 
-
+def list_to_text(text):
+    s = ''
+    for i in range(len(text)):
+        s += text[i]
+    return s
 
 choice = st.sidebar.selectbox("Select your choice", ["Summarize Text", "Summarize Document"])
 
