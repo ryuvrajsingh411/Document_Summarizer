@@ -1,0 +1,11 @@
+langchain-huggingface
+langchain-community
+langchain
+transformers
+PyPDF2
+rapidocr-onnxruntime
+sentence-transformers
+faiss-cpu
+PyMuPDF
+streamlit
+torch
